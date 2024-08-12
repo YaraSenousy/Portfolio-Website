@@ -1,0 +1,130 @@
+body{
+    background-color: #AED2FF;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: #27005D;
+    font-size: 1.1rem;
+}
+.nav{
+    background-color: #E4F1FF;
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: flex-end;
+}
+@media (max-width: 576px){
+    .nav{
+        justify-content: flex-start;
+    }
+}
+.nav-link{
+    color: #9400FF;
+}
+
+h1{
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #9400FF;
+}
+h2{
+    color: #9400FF;
+    font-size: 3rem;
+}
+h3,h2{
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal; 
+}
+p{
+    border:  #AED2FF solid 2px;
+    border-radius: 15px;
+    padding: 10px;
+}
+img{
+    border: #AED2FF solid 4px;
+    border-radius: 15px;
+}
+.aboutme p{
+    border-color: #E4F1FF;
+    font-size: 1.5rem;
+}
+
+.aboutme img{
+    border-color: #E4F1FF;
+}
+
+#skills{
+    background-color: #E4F1FF;
+}
+
+hr{
+    color:#6271bb;
+}
+
+#skills img{
+    height: 5em;
+    width: 5em;
+    margin-bottom: 50px;
+    margin-right: 10px;
+}
+
+.album{
+    background-color: #E4F1FF;
+}
+
+.album img{
+    border: none;
+}
+
+footer{
+    color: #9400FF;
+}
+
+.edu_cer{
+    background-color: #E4F1FF;
+}
+
+.edu img{
+    height: 350px;
+    border-width: 5px;
+    margin-bottom: 5px;;
+}
+
+#contact{
+    background-color: #27005D;
+    padding: 50px;
+}
+
+#contact h2, #contact p{
+    color:#E4F1FF;
+    border:#9400FF solid 3px;
+    border-radius: 15px;
+    display:inline-block;
+    padding: 10px;
+}
+
+#contact p{
+    height: 60%;
+    padding: 20px;
+    align-self: flex-end;
+}
+.contactinfo img{
+    border: none;
+}
+.arrow{
+    width: 25%;
+}
+.contactinfo{
+    display: flex;
+}
+
+.card-body{
+    height: 100%;
+}
