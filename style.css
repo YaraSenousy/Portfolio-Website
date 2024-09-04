@@ -94,7 +94,14 @@ footer{
 .edu img{
     height: 350px;
     border-width: 5px;
-    margin-bottom: 5px;;
+    margin-bottom: 5px;
+    width: 100%;
+    max-width: 350px;
+}
+
+.cer img{
+    width: 100%;
+    max-width: 250px;
 }
 
 #contact{
