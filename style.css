@@ -16,6 +16,9 @@ body{
     font-size: 1.1rem;
     display: flex;
     justify-content: flex-end;
+    position: fixed;
+    width: 100%;
+    z-index: 10000;
 }
 @media (max-width: 576px){
     .nav{
